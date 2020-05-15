@@ -66,7 +66,7 @@ font-weight: 200;
 /** My Skills Section**/
 .skill-row {
   margin: 100px auto 100px auto;
-  width: 40%;
+  width: 60%;
 }
 
 .sr-left {
@@ -201,7 +201,7 @@ font-weight: 200;
 
 .certificates{
     margin: 100px auto 100px auto;
-    width: 70%;
+    width: 90%;
 }
 
 .icon-homepage{
@@ -211,7 +211,7 @@ font-weight: 200;
 
 .diplomas{
     margin: 100px auto 100px auto;
-    width: 45%;
+    width: 60%;
 
 }
 
