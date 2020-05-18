@@ -107,6 +107,13 @@ font-weight: 200;
   width: 70px;
 }
 
+.sql {
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 80px;
+}
+
 .css {
   float: right;
   margin-left: 30px;
