@@ -237,3 +237,32 @@ font-weight: 200;
   margin: 100px auto 100px auto;
   width: 45%;
 }
+
+.counter1{
+  display: inline-block;
+    color: #679b9b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.numbers p {
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.numbers{
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.numbers a {
+  font-size: 10px;
+  font-weight: 400;
+}
+.comp{
+  width: 130px;
+}
