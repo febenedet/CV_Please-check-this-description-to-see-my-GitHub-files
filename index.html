@@ -16,6 +16,19 @@
   <script src="https://kit.fontawesome.com/6ffd95eefc.js" crossorigin="anonymous"></script>
   <!--Google Fonts--->
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+<!-- Numbers--->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  jQuery(document).ready(function( $ ) {
+      $('.counter').counterUp({
+          delay: 10,
+          time: 1000
+      });
+  });
+</script>
 </head>
 
 <body>
@@ -38,7 +51,35 @@
       </p>
     </div>
     <hr>
+<div class="numbers">
+<h2>Numbers</h2>
 
+<div class="row numbers">
+  <div class="col-lg-3">
+    <p>Years of experience</p>
+    <span class= "counter1">+<span class="counter">10</span> </span>
+      <p>in HR, Analytics and Software implementation</p>
+  </div>
+  <div class="col-lg-3">
+    <p>Worked with</p>
+    <span class= "counter1">+<span class="counter">6</span></span>
+    <p>HR and workforce management (HRIS/WFM/HRMS/HCM) softwares</p>
+    <p><a href="hris.html" target="blank">Click here</a></p>
+  </div>
+  <div class="col-lg-3">
+    <p>Responsible for</p>
+    <span class= "counter1">+<span class="counter">4</span></span>
+    <p>System Development Lyfe Cycle (SDLC)</p>
+  </div>
+  <div class="col-lg-3">
+    <p>Knowlage of</p>
+    <span class= "counter1">+<span class="counter">30</span></span>
+    <p>different Applications/Softwares
+  </div>
+
+</div>
+<hr>
+</div>
     <div class="skills">
       <h2>Computer Skills</h2>
 
@@ -57,14 +98,14 @@
       </div>
 
       <div class="skill-row sr-left">
-        <img class="js" src="images/javas.png" alt="JavaScript">
+        <a href="https://febenedet.github.io/JavaScript/" target="blank"><img class="js" src="images/javas.png" alt="JavaScript"></a>
         <h3>JavaScript</h3>
         <p>Play Drums Online! </p>
         <p><a href="https://febenedet.github.io/JavaScript/" target="blank">Click here</a></p>
       </div>
 
       <div class="skill-row sr-right">
-        <img class="python" src="images/python1.png" alt="Python">
+        <a href="https://github.com/febenedet/phynton" target="blank"><img class="python" src="images/python1.png" alt="Python"></a>
         <h3>Python</h3>
         <p>Data input, cleansing, organizing, and visualization. Statistics, probability and modeling using regression.</p>
         <p><a href="https://github.com/febenedet/phynton" target="blank">Click here</a></p>
@@ -72,7 +113,7 @@
 
 
       <div class="skill-row sr-left">
-        <img class="sql" src="images/sql.png" alt="MySQL">
+        <a href="https://github.com/febenedet/MySQL" target="blank"><img class="sql" src="images/sql.png" alt="MySQL"></a>
         <h3>MySQL</h3>
         <p>Check out some MySQL queries </p>
         <p><a href="https://github.com/febenedet/MySQL" target="blank">Click here</a></p>
@@ -83,50 +124,54 @@
 
 
       <section id="certificates">
-        <h2>Certificates</h2>
+              <h2>Certificates</h2>
 
-        <div class="row certificates">
+              <div class="row certificates">
 
-          <div class="col-lg-2">
-            <i class="fas fa-chart-line fa-2x icon-homepage"></i>
-            <h3>Data Science</h3>
-            <a href="https://www.brainstation.io/" target="blank"><p class='feature-text'>@BrainStation</p>
-            </a>
-            <p><a class="btn btn-secondary" href="Certificados e Diplomas\data science certificate.pdf" target="blank" role="button">View certificate »</a></p>
-          </div>
+                <div class="col-lg-3">
+                  <i class="fas fa-chart-line fa-2x icon-homepage" aria-hidden="true"></i>
+                  <h3>Data Science</h3>
+                  <a href="https://www.brainstation.io/" target="blank"><p class="feature-text">@BrainStation</p>
+                  </a>
+                  <p><a class="btn btn-secondary" href="Certificados e Diplomas\data science certificate.pdf" target="blank" role="button">View certificate »</a></p>
+                </div>
 
-          <div class="col-lg-2">
-            <i class="fas fa-database fa-2x icon-homepage "></i>
-            <h3>Advanced SQL + MySQL for Analytics & Business Intelligence</h3>
-            <a href="http://udemy.com" target="blank"><p class='feature-text'>@Udemy</p></a>
-            <p><a class="btn btn-secondary" href="Certificados e Diplomas\Advanced SQL.pdf" target="blank" role="button">View certificate »</a></p>
-          </div>
 
-          <div class="col-lg-2">
-            <i class="far fa-lightbulb fa-2x icon-homepage"></i>
-            <h3>Design Thinking</h3>
-            <a href="https://www.hsm.com.br/" target="blank"><p class='feature-text'>@HSM</p></a>
-            <p><a class="btn btn-secondary" href="Certificados e Diplomas\certificado design thinking.pdf" target="blank" role="button">View certificate »</a></p>
-          </div>
+                <div class="col-lg-3">
+                  <i class="far fa-lightbulb fa-2x icon-homepage" aria-hidden="true"></i>
+                  <h3>Design Thinking</h3>
+                  <a href="https://www.hsm.com.br/" target="blank"><p class="feature-text">@HSM</p></a>
+                  <p><a class="btn btn-secondary" href="Certificados e Diplomas\certificado design thinking.pdf" target="blank" role="button">View certificate »</a></p>
+                </div>
 
-          <div class="col-lg-2">
-            <i class="fas fa-key fa-2x icon-homepage "></i>
-            <h3>KPI System</h3>
-            <a href="https://www2.fnq.org.br/" target="blank"><p class='feature-text'>@FNQ</p></a>
-            <p><a class="btn btn-secondary" href="Certificados e Diplomas\Certificado Sistemas de Indicadores.pdf" target="blank" role="button">View certificate »</a></p>
-          </div>
+                <div class="col-lg-3">
+                  <i class="fas fa-key fa-2x icon-homepage " aria-hidden="true"></i>
+                  <h3>KPI System</h3>
+                  <a href="https://www2.fnq.org.br/" target="blank"><p class="feature-text">@FNQ</p></a>
+                  <p><a class="btn btn-secondary" href="Certificados e Diplomas\Certificado Sistemas de Indicadores.pdf" target="blank" role="button">View certificate »</a></p>
+                </div>
 
-          <div class="col-lg-2">
-            <i class="fas fa-tasks fa-2x icon-homepage "></i>
-            <h3>Scrum</h3>
-            <a href="http://fabiocruz.com.br/" target="blank"><p class='feature-text'>@FabioCruz</p></a>
-            <p><a class="btn btn-secondary" href="Certificados e Diplomas\Certificado Scrum.pdf" target="blank" role="button">View certificate »</a></p>
-          </div>
+                <div class="col-lg-3">
+                  <i class="fas fa-tasks fa-2x icon-homepage " aria-hidden="true"></i>
+                  <h3>Scrum</h3>
+                  <a href="http://fabiocruz.com.br/" target="blank"><p class="feature-text">@FabioCruz</p></a>
+                  <p><a class="btn btn-secondary" href="Certificados e Diplomas\Certificado Scrum.pdf" target="blank" role="button">View certificate »</a></p>
+                </div>
 
 
 
-        </div>
-      </section>
+              </div>
+      <div class="row certificates">
+              <div class="col-lg">
+                <i class="fas fa-database fa-2x icon-homepage " aria-hidden="true"></i>
+                <h3>Advanced SQL + MySQL for Analytics &amp; Business Intelligence</h3>
+                <a href="http://udemy.com" target="blank"><p class="feature-text">@Udemy</p></a>
+                <p><a class="btn btn-secondary" href="Certificados e Diplomas\Advanced SQL.pdf" target="blank" role="button">View certificate »</a></p>
+              </div>
+
+            </div>
+
+            </section>
 
       <hr>
 
@@ -166,6 +211,9 @@
     <a class="footer-link" href="https://www.linkedin.com/in/fernanda-benedet-2b438225">LinkedIn</a>
     <p class="footer-message">© 2020 Fernanda Benedet.</p>
   </div>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="jquery.counterup.min.js"></script>
 </body>
 
 </html>
