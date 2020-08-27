@@ -57,6 +57,10 @@ font-weight: 200;
   width: 250px;
 }
 
+span > a{
+  font-size: 0.67rem;
+}
+
 .bottom-cloud {
   bottom: 150px;
   right: 50px;
@@ -260,7 +264,7 @@ font-weight: 200;
 }
 
 .numbers a {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
 }
 .comp{
